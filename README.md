@@ -1,7 +1,7 @@
-﻿# Banco de Dados Coffee Home
+﻿# Banco de Dados Coffee House
 
 
-Pequeno desenho ilustrando a relação das tabelas dos produtos da Cafeteria Home:
+Pequeno desenho ilustrando a relação das tabelas dos produtos da Cafeteria:
     <a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866371656/in/dateposted-public/" title="Captura da Web_3-5-2023_03352_github.com"><img src="https://live.staticflickr.com/65535/52866371656_f1a1068dee_z.jpg" width="640" height="487" alt="Captura da Web_3-5-2023_03352_github.com"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 # Para criar as tabelas, utilizei os seguintes comandos:
