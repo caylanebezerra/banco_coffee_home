@@ -1,32 +1,8 @@
-﻿# banco_coffee_home
+﻿# Banco de Dados Coffee Home
 
 
 Pequeno desenho ilustrando a relação das tabelas dos produtos da Cafeteria Home:
-       +------------+       +--------------+       +--------------+
-       |  produto   |       |    comidas   |       |   salgados   |
-       +------------+       +--------------+       +--------------+
-       | id_produto |<------| id_produto   |       | id_salgado   |
-       | nome_produto |      | tipo         |>------| nome_salgado |
-       | descricao   |      +--------------+       | id_comida   |<--+
-       | preco       |                              | descricao   |   |
-       +------------+                              | preco       |   |
-                                                    +--------------+   |
-                                                                     |
-                                                                     |
-                                                                     v
-                                                           +--------------+
-                                                           |     doces    |
-                                                           +--------------+
-                                                           | id_doce      |
-                                                           | nome_doce    |
-                                                           | id_comida    |<--+
-                                                           | descricao_doce |  |
-                                                           | preco_doce     |  |
-                                                           +--------------+  |
-                                                                             |
-                                                                             |
-                                                                             v
-
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866371656/in/dateposted-public/" title="Captura da Web_3-5-2023_03352_github.com"><img src="https://live.staticflickr.com/65535/52866371656_f1a1068dee_z.jpg" width="640" height="487" alt="Captura da Web_3-5-2023_03352_github.com"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 # Para criar as tabelas, utilizei os seguintes comandos:
 -- Criando a tabela "produto"
@@ -84,4 +60,15 @@ INSERT INTO salgados(id_salgado,nome_salgado,id_comida) VALUES (4,'Croissant de 
 - O produto é o mais geral
 - A tabela comidas é relacionada com a tabela produto, a principal, através da chave estrangeira id_produto, ja a variável "tipo" que existe na tabela comidas poderá aceitar valores como doce ou salgado, e assim se relacionará com as tabelas filhas doces e salgados.
 - As tabelas doces e salgados receem a variavel "id_comida" que se relacionará com a tabela comidas.
+
+# Resultado da criação e dos inserts:
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866760285/in/dateposted-public/" title="Captura de tela 2023-05-03 004436"><img src="https://live.staticflickr.com/65535/52866760285_9765ce0cbd_z.jpg" width="640" height="247" alt="Captura de tela 2023-05-03 004436"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866760355/in/dateposted-public/" title="Captura de tela 2023-05-03 004535"><img src="https://live.staticflickr.com/65535/52866760355_861eff4aab_w.jpg" width="400" height="258" alt="Captura de tela 2023-05-03 004535"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866371516/in/dateposted-public/" title="Captura de tela 2023-05-03 004623"><img src="https://live.staticflickr.com/65535/52866371516_92aedccc1c_w.jpg" width="400" height="118" alt="Captura de tela 2023-05-03 004623"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866371466/in/dateposted-public/" title="Captura de tela 2023-05-03 004603"><img src="https://live.staticflickr.com/65535/52866371466_b5d9a34fa6_w.jpg" width="400" height="116" alt="Captura de tela 2023-05-03 004603"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
 
