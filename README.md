@@ -59,7 +59,7 @@ INSERT INTO salgados(id_salgado,nome_salgado,id_comida) VALUES (4,'Croissant de 
 # Explicando as inserções de valores:
 - O produto é o mais geral
 - A tabela comidas é relacionada com a tabela produto, a principal, através da chave estrangeira id_produto, ja a variável "tipo" que existe na tabela comidas poderá aceitar valores como doce ou salgado, e assim se relacionará com as tabelas filhas doces e salgados.
-- As tabelas doces e salgados receem a variavel "id_comida" que se relacionará com a tabela comidas.
+- As tabelas doces e salgados recebem a variavel "id_comida" que se relacionará com a tabela comidas.
 
 # Resultado da criação e dos inserts:
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/198233475@N03/52866760285/in/dateposted-public/" title="Captura de tela 2023-05-03 004436"><img src="https://live.staticflickr.com/65535/52866760285_9765ce0cbd_z.jpg" width="640" height="247" alt="Captura de tela 2023-05-03 004436"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
